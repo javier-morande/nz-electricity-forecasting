@@ -1,0 +1,23 @@
+# Python virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Jupyter checkpoints
+.ipynb_checkpoints/
+
+# macOS files
+.DS_Store
+
+# Environment variables and secrets
+.env
+.env.*
+# Large trained machine learning models
+models/*.pkl
+models/*.json
+
+# Datasets — verify redistribution permissions before publishing
+data/*.csv
